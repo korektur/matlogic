@@ -1,6 +1,7 @@
-/**
- * Created by Руслан on 05.02.14.
- */
-public class Expression {
+import java.util.Map;
 
+
+public interface Expression {
+
+    public abstract boolean evaluate(Map<String, Boolean> variables);
 }
