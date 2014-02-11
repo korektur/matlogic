@@ -10,4 +10,14 @@ public class Conjunction extends BinaryOp {
         return (leftVal && rightVal);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof Conjunction) {
+            Conjunction c = (Conjunction) o;
+            return (left.equals(c.left) && right.equals(c.right));
+        } else {
+            return false;
+        }
+    }
+
 }
