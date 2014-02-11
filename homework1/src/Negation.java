@@ -8,6 +8,10 @@ public class Negation implements Expression {
         this.expr = expr;
     }
 
+    public Expression getExpr() {
+        return expr;
+    }
+
     @Override
     public boolean evaluate(Map<String, Boolean> var) {
         return !expr.evaluate(var);

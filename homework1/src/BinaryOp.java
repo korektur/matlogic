@@ -10,6 +10,14 @@ public abstract class BinaryOp implements Expression {
         this.right = right;
     }
 
+    public Expression getLeft(){
+        return left;
+    }
+
+    public Expression getRight(){
+        return right;
+    }
+
     @Override
     public boolean evaluate(Map<String, Boolean> var) {
         return apply(left.evaluate(var), right.evaluate(var));
