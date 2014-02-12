@@ -8,7 +8,6 @@ public class Parser {
     private Expression parse(int begin, int end) {
 
         int balance = 0;
-        int impl = -1;
         for (int i = begin; i < end; ++i) {
             if (expr.charAt(i) == '(') {
                 balance++;
@@ -17,11 +16,8 @@ public class Parser {
                 balance--;
             }
             if (expr.charAt(i) == '>' && balance == 0) {
-                impl = i;
+                return new Implication(parse(begin, i), parse(i + 1, end));
             }
-        }
-        if (impl != -1){
-            return new Implication(parse(begin, impl), parse(impl + 1, end));
         }
 
         balance = 0;

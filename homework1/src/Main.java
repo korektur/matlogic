@@ -17,8 +17,33 @@ public class Main {
             expressions.add(parser.parse());
             s = in.readLine();
         }
-        for(int i = 0; i < expressions.size(); i++){
-            out.println(Axioms.checker(expressions.get(i)));
+        boolean ans = true;
+        int i = 0;
+        for(; i < expressions.size() && ans; i++){
+            //out.println(Axioms.checker(expressions.get(i)));
+            ans = false;
+            if(Axioms.checker(expressions.get(i)) != - 1){
+                ans = true;
+                continue;
+            }
+            for(int j = 0; j < i && !ans; ++j){
+                if (expressions.get(j) instanceof Implication){
+                    Implication impl = (Implication)expressions.get(j);
+                    if (impl.getRight().equals(expressions.get(i))){
+                        for(int k = 0; k < i && !ans; ++k){
+                            if (expressions.get(k).equals(impl.getLeft())){
+                                ans = true;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if (ans){
+            out.println("Доказательство корректно.");
+        } else {
+            out.println("Доказательство некорректно начиная с " + i + " высказывания.");
         }
         out.close();
     }

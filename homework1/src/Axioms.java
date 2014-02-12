@@ -16,17 +16,17 @@ public class Axioms {
             Implication impl1 = (Implication) e;
             if (impl1.getLeft() instanceof Implication) {
                 Implication impl2 = (Implication) impl1.getLeft();
-                if (impl2.getLeft() instanceof Implication) {
-                    Implication impl3 = (Implication) impl2.getLeft();
-                    if (impl2.getRight() instanceof Implication) {
-                        Implication impl4 = (Implication) impl2.getRight();
-                        if (impl4.getLeft() instanceof Implication) {
-                            Implication impl5 = (Implication) impl4.getLeft();
-                            if (impl1.getRight() instanceof Implication) {
-                                Implication impl6 = (Implication) impl1.getRight();
-                                boolean fl1 = impl3.getLeft().equals(impl5.getLeft()) && impl3.getLeft().equals(impl6.getLeft());
-                                boolean fl2 = impl3.getRight().equals(impl5.getRight());
-                                boolean fl3 = impl4.getRight().equals(impl6.getRight());
+                if (impl1.getRight() instanceof Implication) {
+                    Implication impl3 = (Implication) impl1.getRight();
+                    if (impl3.getLeft() instanceof Implication) {
+                        Implication impl4 = (Implication) impl3.getLeft();
+                        if (impl4.getRight() instanceof Implication) {
+                            Implication impl5 = (Implication) impl4.getRight();
+                            if (impl3.getRight() instanceof Implication) {
+                                Implication impl6 = (Implication) impl3.getRight();
+                                boolean fl1 = impl2.getLeft().equals(impl4.getLeft()) && impl2.getLeft().equals(impl6.getLeft());
+                                boolean fl2 = impl2.getRight().equals(impl5.getLeft());
+                                boolean fl3 = impl5.getRight().equals(impl6.getRight());
                                 return (fl1 && fl2 && fl3);
                             }
                         }
@@ -40,12 +40,12 @@ public class Axioms {
     private static boolean check3(Expression e) {
         if (e instanceof Implication) {
             Implication impl1 = (Implication) e;
-            if (impl1.getLeft() instanceof Implication) {
-                Implication impl2 = (Implication) impl1.getLeft();
-                if (impl1.getRight() instanceof Conjunction) {
-                    Conjunction conj1 = (Conjunction) impl1.getRight();
-                    boolean fl1 = impl2.getRight().equals(conj1.getRight());
-                    boolean fl2 = impl2.getLeft().equals(conj1.getLeft());
+            if (impl1.getRight() instanceof Implication) {
+                Implication impl2 = (Implication) impl1.getRight();
+                if (impl2.getRight() instanceof Conjunction) {
+                    Conjunction conj1 = (Conjunction) impl2.getRight();
+                    boolean fl1 = impl1.getLeft().equals(conj1.getLeft());
+                    boolean fl2 = impl2.getLeft().equals(conj1.getRight());
                     return (fl1 && fl2);
                 }
             }
@@ -102,16 +102,16 @@ public class Axioms {
             Implication impl1 = (Implication) e;
             if (impl1.getLeft() instanceof Implication) {
                 Implication impl2 = (Implication) impl1.getLeft();
-                if (impl2.getLeft() instanceof Implication) {
-                    Implication impl3 = (Implication) impl2.getLeft();
-                    if (impl2.getRight() instanceof Implication) {
-                        Implication impl4 = (Implication) impl2.getRight();
-                        if (impl1.getRight() instanceof Implication) {
-                            Implication impl5 = (Implication) impl1.getRight();
+                if (impl1.getRight() instanceof Implication) {
+                    Implication impl3 = (Implication) impl1.getRight();
+                    if (impl3.getLeft() instanceof Implication) {
+                        Implication impl4 = (Implication) impl3.getLeft();
+                        if (impl3.getRight() instanceof Implication) {
+                            Implication impl5 = (Implication) impl3.getRight();
                             if (impl5.getLeft() instanceof Disjunction) {
                                 Disjunction disj1 = (Disjunction) impl5.getLeft();
-                                boolean fl1 = impl3.getLeft().equals(disj1.getLeft());
-                                boolean fl2 = impl3.getRight().equals(impl4.getRight()) && impl3.getRight().equals(impl5.getRight());
+                                boolean fl1 = impl2.getLeft().equals(disj1.getLeft());
+                                boolean fl2 = impl2.getRight().equals(impl4.getRight()) && impl2.getRight().equals(impl5.getRight());
                                 boolean fl3 = impl4.getLeft().equals(disj1.getRight());
                                 return (fl1 && fl2 && fl3);
                             }
@@ -128,16 +128,16 @@ public class Axioms {
             Implication impl1 = (Implication)e;
             if (impl1.getLeft() instanceof Implication){
                 Implication impl2 = (Implication)impl1.getLeft();
-                if(impl2.getLeft() instanceof Implication){
-                    Implication impl3 = (Implication)impl2.getLeft();
-                    if (impl2.getRight() instanceof Implication){
-                        Implication impl4 = (Implication)impl2.getRight();
+                if(impl1.getRight() instanceof Implication){
+                    Implication impl3 = (Implication)impl1.getRight();
+                    if (impl3.getLeft() instanceof Implication){
+                        Implication impl4 = (Implication)impl3.getLeft();
                         if (impl4.getRight() instanceof Negation){
                             Negation neg1 = (Negation) impl4.getRight();
-                            if (impl1.getRight() instanceof Negation) {
-                                Negation neg2 = (Negation) impl1.getRight();
-                                boolean fl1 = neg2.getExpr().equals(impl3.getLeft()) && neg2.getExpr().equals(impl4.getLeft());
-                                boolean fl2 = impl3.getRight().equals(neg1.getExpr());
+                            if (impl3.getRight() instanceof Negation) {
+                                Negation neg2 = (Negation) impl3.getRight();
+                                boolean fl1 = neg2.getExpr().equals(impl2.getLeft()) && neg2.getExpr().equals(impl4.getLeft());
+                                boolean fl2 = impl2.getRight().equals(neg1.getExpr());
                                 return (fl1 && fl2);
                             }
                         }
