@@ -1,5 +1,3 @@
-
-
 public class Axioms {
 
     private static boolean check1(Expression e) {
@@ -40,14 +38,14 @@ public class Axioms {
     }
 
     private static boolean check3(Expression e) {
-        if (e instanceof Conjunction) {
-            Conjunction conj1 = (Conjunction) e;
-            if (conj1.getLeft() instanceof Implication) {
-                Implication impl1 = (Implication) conj1.getLeft();
-                if (impl1.getLeft() instanceof Implication) {
-                    Implication impl2 = (Implication) impl1.getLeft();
-                    boolean fl1 = impl1.getRight().equals(impl2.getLeft());
-                    boolean fl2 = impl2.getRight().equals(conj1.getRight());
+        if (e instanceof Implication) {
+            Implication impl1 = (Implication) e;
+            if (impl1.getLeft() instanceof Implication) {
+                Implication impl2 = (Implication) impl1.getLeft();
+                if (impl1.getRight() instanceof Conjunction) {
+                    Conjunction conj1 = (Conjunction) impl1.getRight();
+                    boolean fl1 = impl2.getRight().equals(conj1.getRight());
+                    boolean fl2 = impl2.getLeft().equals(conj1.getLeft());
                     return (fl1 && fl2);
                 }
             }
@@ -138,7 +136,7 @@ public class Axioms {
                             Negation neg1 = (Negation) impl4.getRight();
                             if (impl1.getRight() instanceof Negation) {
                                 Negation neg2 = (Negation) impl1.getRight();
-                                boolean fl1 = neg2.getExpr().equals(impl3.getRight()) && neg2.getExpr().equals(impl4.getLeft());
+                                boolean fl1 = neg2.getExpr().equals(impl3.getLeft()) && neg2.getExpr().equals(impl4.getLeft());
                                 boolean fl2 = impl3.getRight().equals(neg1.getExpr());
                                 return (fl1 && fl2);
                             }
@@ -162,5 +160,19 @@ public class Axioms {
             }
         }
         return false;
+    }
+
+    public static int checker(Expression e){
+        if (check1(e)) return 1;
+        if (check2(e)) return 2;
+        if (check3(e)) return 3;
+        if (check4(e)) return 4;
+        if (check5(e)) return 5;
+        if (check6(e)) return 6;
+        if (check7(e)) return 7;
+        if (check8(e)) return 8;
+        if (check9(e)) return 9;
+        if (check10(e)) return 10;
+        return -1;
     }
 }

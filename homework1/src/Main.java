@@ -17,6 +17,9 @@ public class Main {
             expressions.add(parser.parse());
             s = in.readLine();
         }
+        for(int i = 0; i < expressions.size(); i++){
+            out.println(Axioms.checker(expressions.get(i)));
+        }
         out.close();
     }
 

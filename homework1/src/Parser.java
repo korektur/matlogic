@@ -8,30 +8,6 @@ public class Parser {
     private Expression parse(int begin, int end) {
 
         int balance = 0;
-        for (int i = begin; i < end; ++i) {
-            if (expr.charAt(i) == '(') {
-                balance++;
-            }
-            if (expr.charAt(i) == ')') {
-                balance--;
-            }
-            if (expr.charAt(i) == '&' && balance == 0) {
-                return new Conjunction(parse(begin, i), parse(i + 1, end));
-            }
-        }
-        balance = 0;
-        for (int i = begin; i < end; ++i) {
-            if (expr.charAt(i) == '(') {
-                balance++;
-            }
-            if (expr.charAt(i) == ')') {
-                balance--;
-            }
-            if (expr.charAt(i) == '|' && balance == 0) {
-                return new Disjunction(parse(begin, i), parse(i + 1, end));
-            }
-        }
-        balance = 0;
         int impl = -1;
         for (int i = begin; i < end; ++i) {
             if (expr.charAt(i) == '(') {
@@ -47,6 +23,33 @@ public class Parser {
         if (impl != -1){
             return new Implication(parse(begin, impl), parse(impl + 1, end));
         }
+
+        balance = 0;
+        for (int i = begin; i < end; ++i) {
+            if (expr.charAt(i) == '(') {
+                balance++;
+            }
+            if (expr.charAt(i) == ')') {
+                balance--;
+            }
+            if (expr.charAt(i) == '|' && balance == 0) {
+                return new Disjunction(parse(begin, i), parse(i + 1, end));
+            }
+        }
+
+        balance = 0;
+        for (int i = begin; i < end; ++i) {
+            if (expr.charAt(i) == '(') {
+                balance++;
+            }
+            if (expr.charAt(i) == ')') {
+                balance--;
+            }
+            if (expr.charAt(i) == '&' && balance == 0) {
+                return new Conjunction(parse(begin, i), parse(i + 1, end));
+            }
+        }
+
         if (expr.charAt(begin) == '!') {
             return new Negation(parse(begin + 1, end));
         }
