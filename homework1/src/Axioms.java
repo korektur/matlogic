@@ -40,13 +40,13 @@ public class Axioms {
     }
 
     private static boolean check3(Expression e) {
-        if (e instanceof Implication) {
-            Implication impl1 = (Implication) e;
-            if (impl1.getLeft() instanceof Implication) {
-                Implication impl2 = (Implication) impl1.getLeft();
-                if (impl1.getRight() instanceof Conjunction) {
-                    Conjunction conj1 = (Conjunction) impl1.getRight();
-                    boolean fl1 = impl2.getLeft().equals(conj1.getLeft());
+        if (e instanceof Conjunction) {
+            Conjunction conj1 = (Conjunction) e;
+            if (conj1.getLeft() instanceof Implication) {
+                Implication impl1 = (Implication) conj1.getLeft();
+                if (impl1.getLeft() instanceof Implication) {
+                    Implication impl2 = (Implication) impl1.getLeft();
+                    boolean fl1 = impl1.getRight().equals(impl2.getLeft());
                     boolean fl2 = impl2.getRight().equals(conj1.getRight());
                     return (fl1 && fl2);
                 }
