@@ -21,7 +21,7 @@ public class Negation implements Expression {
     public boolean equals(Object o) {
         if (o instanceof Negation) {
             Negation c = (Negation) o;
-            return (expr.equals(c));
+            return (expr.equals(c.expr));
         } else {
             return false;
         }

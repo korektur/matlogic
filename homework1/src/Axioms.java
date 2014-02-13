@@ -136,7 +136,8 @@ public class Axioms {
                             Negation neg1 = (Negation) impl4.getRight();
                             if (impl3.getRight() instanceof Negation) {
                                 Negation neg2 = (Negation) impl3.getRight();
-                                boolean fl1 = neg2.getExpr().equals(impl2.getLeft()) && neg2.getExpr().equals(impl4.getLeft());
+                                boolean fl1 = neg2.getExpr().equals(impl2.getLeft());
+                                fl1 = fl1 && neg2.getExpr().equals(impl4.getLeft());
                                 boolean fl2 = impl2.getRight().equals(neg1.getExpr());
                                 return (fl1 && fl2);
                             }
