@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c150df-1186-44ee-a956-0d9d17b1c355" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Axioms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinaryOp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework1/out/production/homework1/Main.class" afterPath="$PROJECT_DIR$/../homework1/out/production/homework1/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework1/input.txt" afterPath="$PROJECT_DIR$/../homework1/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework1/output.txt" afterPath="$PROJECT_DIR$/../homework1/output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homework1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homewor1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,12 +107,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#580#592#0" expanded="true" />
-                <element signature="e#961#973#0" expanded="true" />
-              </folding>
+            <state line="6" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1904">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +116,7 @@
       <file leaf-file-name="Negation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Negation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="25" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="646">
+            <state line="31" column="25" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -127,25 +125,25 @@
       <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="44" selection-end="44" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="289">
+            <state line="3097" column="99" selection-start="527702" selection-end="527702" vertical-scroll-proportion="0.0" vertical-offset="51945" max-vertical-offset="52819">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="output.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="697">
+            <state line="9280" column="71" selection-start="0" selection-end="2995369" vertical-scroll-proportion="0.55221933" vertical-offset="157337" max-vertical-offset="158151">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Implication.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Implication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Implication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="69" selection-start="644" selection-end="644" vertical-scroll-proportion="0.6530612" vertical-offset="120" max-vertical-offset="561">
+            <state line="24" column="69" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -173,15 +171,15 @@
         <option value="$PROJECT_DIR$/src/Implication.java" />
         <option value="$PROJECT_DIR$/src/Variable.java" />
         <option value="$PROJECT_DIR$/src/Negation.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/input.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -211,6 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,7 +245,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +263,8 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homework1" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -490,7 +489,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="homework1" />
+      <module name="homework2" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -544,6 +543,8 @@
       <workItem from="1392272589286" duration="3960000" />
       <workItem from="1392290001233" duration="91000" />
       <workItem from="1392290188853" duration="7441000" />
+      <workItem from="1392550467709" duration="241000" />
+      <workItem from="1392656429017" duration="591000" />
     </task>
     <task id="LOCAL-00001" summary="some classes added">
       <created>1392123706474</created>
@@ -581,10 +582,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32775000" />
+    <option name="totallyTimeSpent" value="33607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1600" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -600,18 +601,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21601209" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21566111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -646,23 +647,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Conjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Axioms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="43" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="2924">
-          <folding />
-        </state>
+        <state line="71" column="43" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="2924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Disjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="16" column="42" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Implication.java">
@@ -675,11 +670,7 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="340">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#592#0" expanded="true" />
-            <element signature="e#961#973#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,23 +688,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Axioms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="52" selection-start="6434" selection-end="6434" vertical-scroll-proportion="0.0" vertical-offset="2414" max-vertical-offset="2924">
-          <folding />
-        </state>
+        <state line="142" column="52" selection-start="6434" selection-end="6434" vertical-scroll-proportion="0.0" vertical-offset="2414" max-vertical-offset="2924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Conjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Implication.java">
@@ -725,9 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Disjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="16" column="42" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryOp.java">
@@ -745,11 +728,7 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="340">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#592#0" expanded="true" />
-            <element signature="e#961#973#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -767,23 +746,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Axioms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="52" selection-start="6434" selection-end="6434" vertical-scroll-proportion="0.0" vertical-offset="1970" max-vertical-offset="2924">
-          <folding />
-        </state>
+        <state line="142" column="52" selection-start="6434" selection-end="6434" vertical-scroll-proportion="0.0" vertical-offset="1970" max-vertical-offset="2924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Conjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Implication.java">
@@ -795,9 +768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Disjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="16" column="42" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryOp.java">
@@ -815,11 +786,7 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="340">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#592#0" expanded="true" />
-            <element signature="e#961#973#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,16 +804,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="374">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="374" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Conjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="76" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="11" column="76" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Implication.java">
@@ -858,9 +821,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Disjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="37" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="11" column="37" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryOp.java">
@@ -878,11 +839,7 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#592#0" expanded="true" />
-            <element signature="e#961#973#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -901,11 +858,7 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#592#0" expanded="true" />
-            <element signature="e#961#973#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,30 +881,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Axioms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="0" selection-start="5395" selection-end="5395" vertical-scroll-proportion="0.3324397" vertical-offset="2018" max-vertical-offset="3145">
-          <folding />
-        </state>
+        <state line="126" column="0" selection-start="5395" selection-end="5395" vertical-scroll-proportion="0.3324397" vertical-offset="2018" max-vertical-offset="3145" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Conjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="3" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Disjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="10" column="25" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser.java">
@@ -963,23 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="6" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="44" selection-end="44" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="697">
-          <folding />
-        </state>
+        <state line="27" column="6" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Negation.java">
@@ -992,17 +921,27 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#592#0" expanded="true" />
-            <element signature="e#961#973#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Implication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="644" selection-end="644" vertical-scroll-proportion="0.6530612" vertical-offset="120" max-vertical-offset="561">
+        <state line="24" column="69" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3097" column="99" selection-start="527702" selection-end="527702" vertical-scroll-proportion="0.0" vertical-offset="51945" max-vertical-offset="52819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9280" column="71" selection-start="0" selection-end="2995369" vertical-scroll-proportion="0.55221933" vertical-offset="157337" max-vertical-offset="158151">
           <folding />
         </state>
       </provider>
