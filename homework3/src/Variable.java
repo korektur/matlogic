@@ -9,12 +9,12 @@ public class Variable implements Expression {
         this.name = name;
     }
 
-    @Override
+    AOverride
     public boolean evaluate(Map<String, Boolean> var) {
         return var.get(name);
     }
 
-    @Override
+    AOverride
     public boolean equals(Object o) {
         if (o instanceof Variable) {
             Variable v = (Variable) o;
@@ -24,7 +24,7 @@ public class Variable implements Expression {
         }
     }
 
-    @Override
+    AOverride
     public String toString(){
         return name;
     }

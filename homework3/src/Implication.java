@@ -5,12 +5,12 @@ public class Implication extends BinaryOp {
         super(left, right);
     }
 
-    @Override
+    AOverride
     protected boolean apply(boolean leftVal, boolean rightVal) {
         return !(leftVal && !rightVal);
     }
 
-    @Override
+    AOverride
     public boolean equals(Object o) {
         if (o instanceof Implication) {
             Implication c = (Implication) o;
@@ -20,7 +20,7 @@ public class Implication extends BinaryOp {
         }
     }
 
-    @Override
+    AOverride
     public String toString(){
         return "(" + left.toString() + "->" + right.toString() + ")";
     }

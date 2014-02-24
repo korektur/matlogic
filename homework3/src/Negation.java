@@ -12,12 +12,12 @@ public class Negation implements Expression {
         return expr;
     }
 
-    @Override
+    AOverride
     public boolean evaluate(Map<String, Boolean> var) {
         return !expr.evaluate(var);
     }
 
-    @Override
+    AOverride
     public boolean equals(Object o) {
         if (o instanceof Negation) {
             Negation c = (Negation) o;
@@ -27,7 +27,7 @@ public class Negation implements Expression {
         }
     }
 
-    @Override
+    AOverride
     public String toString(){
         return "(" + "!" + expr.toString() + ")";
     }
