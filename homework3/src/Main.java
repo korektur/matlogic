@@ -11,6 +11,7 @@ public class Main {
     private static Expression expr;
     private static ArrayList<String> vars;
     private static PrintWriter out;
+    private static ArrayList<Expression> ans;
 
     private static boolean checkExpr(int index, Map<String, Boolean> map) {
         if (index == vars.size()) {
@@ -40,11 +41,32 @@ public class Main {
         return checkExpr(0, new TreeMap<String, Boolean>());
     }
 
+
+    private static void rec(Map<String, Boolean> map, Expression expr) {
+        if (expr instanceof BinaryOp) {
+            BinaryOp ex = (BinaryOp) expr;
+            if (ex.getLeft() instanceof BinaryOp)
+                rec(map, ex);
+        }
+    }
+
+    private static void getProof(int index, Map<String, Boolean> map) {
+        if (index == vars.size()) {
+
+        }
+        map.put(vars.get(index), true);
+        getProof(index + 1, map);
+        map.put(vars.get(index), false);
+        getProof(index + 1, map);
+    }
+
+
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("input.txt"));
         out = new PrintWriter("output.txt");
         String input = in.readLine();
         Parser parser = new Parser(input);
+        ans = new ArrayList<>();
         expr = parser.parse();
         vars = parser.getVariables();
         boolean isCorrect = checkExpr();
