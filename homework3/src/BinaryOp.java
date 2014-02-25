@@ -18,7 +18,7 @@ public abstract class BinaryOp implements Expression {
         return right;
     }
 
-    AOverride
+    @Override
     public boolean evaluate(Map<String, Boolean> var) {
         return apply(left.evaluate(var), right.evaluate(var));
     }

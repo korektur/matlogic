@@ -5,12 +5,12 @@ public class Conjunction extends BinaryOp {
         super(left, right);
     }
 
-    AOverride
+    @Override
     protected boolean apply(boolean leftVal, boolean rightVal) {
         return (leftVal && rightVal);
     }
 
-    AOverride
+    @Override
     public boolean equals(Object o) {
         if (o instanceof Conjunction) {
             Conjunction c = (Conjunction) o;
@@ -20,7 +20,7 @@ public class Conjunction extends BinaryOp {
         }
     }
 
-    AOverride
+    @Override
     public String toString(){
         return "(" + left.toString() + "&" + right.toString() + ")";
     }
