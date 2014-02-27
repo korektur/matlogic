@@ -10,6 +10,7 @@ public class Main {
     private static PrintWriter out;
     private static ArrayList<Expression> ans;
     private static ArrayList<ArrayList<Expression>> linkings;
+    private static ArrayList<Pair> tree;
 
     private static class Pair {
         Map<String, Boolean> map;
@@ -118,25 +119,25 @@ public class Main {
             boolean fl2 = rec(map, conj.getRight());
             if (fl1 && fl2) {
                 ArrayList<Expression> proof = linkings.get(0);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, conj.getLeft(), conj.getRight()));
                 }
                 return true;
             } else if (fl1) {
                 ArrayList<Expression> proof = linkings.get(1);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, conj.getLeft(), conj.getRight()));
                 }
                 return false;
             } else if (fl2) {
                 ArrayList<Expression> proof = linkings.get(2);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, conj.getLeft(), conj.getRight()));
                 }
                 return false;
             } else {
                 ArrayList<Expression> proof = linkings.get(3);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, conj.getLeft(), conj.getRight()));
                 }
                 return false;
@@ -148,25 +149,25 @@ public class Main {
             boolean fl2 = rec(map, disj.getRight());
             if (fl1 && fl2) {
                 ArrayList<Expression> proof = linkings.get(8);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, disj.getLeft(), disj.getRight()));
                 }
                 return true;
             } else if (fl1) {
                 ArrayList<Expression> proof = linkings.get(9);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, disj.getLeft(), disj.getRight()));
                 }
                 return true;
             } else if (fl2) {
                 ArrayList<Expression> proof = linkings.get(10);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, disj.getLeft(), disj.getRight()));
                 }
                 return true;
             } else {
                 ArrayList<Expression> proof = linkings.get(11);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, disj.getLeft(), disj.getRight()));
                 }
                 return false;
@@ -177,13 +178,13 @@ public class Main {
             boolean fl = rec(map, neg.getExpr());
             if (!fl) {
                 ArrayList<Expression> proof = linkings.get(12);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, neg.getExpr(), null));
                 }
                 return false;
             } else {
                 ArrayList<Expression> proof = linkings.get(13);
-                for(Expression ex : proof) {
+                for (Expression ex : proof) {
                     ans.add(replace(ex, neg.getExpr(), null));
                 }
             }
@@ -194,7 +195,10 @@ public class Main {
 
     private static void getProof(int index, Map<String, Boolean> map) {
         if (index == vars.size()) {
+            ans = new ArrayList<>();
             rec(map, expr);
+            Pair p = new Pair(map, ans);
+            tree.add(p);
             return;
         }
         map.put(vars.get(index), true);
@@ -203,20 +207,51 @@ public class Main {
         getProof(index + 1, map);
     }
 
+    public static ArrayList<Expression> getAns() {
+        while (tree.size() != 1) {
+            Pair p1 = tree.get(0);
+            Pair p2 = tree.get(1);
+            Expression alpha = new Variable(vars.get(p1.map.size() - 1));
+            Map<String, Boolean> map = p1.map;
+            map.remove(alpha.toString());
+            ArrayList<Expression> g = new ArrayList<>();
+            for (String var : vars) {
+                if (map.containsKey(var)) {
+                    g.add(new Variable(var));
+                }
+            }
+            Deduction deduction = new Deduction(alpha, expr, g, p1.proof);
+            ArrayList<Expression> proof = deduction.getProof();
+            proof.addAll((new Deduction(new Negation(alpha), expr, g, p2.proof)).getProof());
+            proof.addAll(ExcludedMiddle.getProof(alpha));
+            proof.add(new Implication(new Implication(alpha, expr), new Implication(new Implication(
+                    new Negation(alpha), expr), new Implication(new Disjunction(alpha, new Negation(alpha)), expr))));
+            proof.add(new Implication(new Implication(new Negation(alpha), expr), new Implication(new Disjunction(alpha,
+                    new Negation(alpha)), expr)));
+            proof.add(new Implication(new Disjunction(alpha, new Negation(alpha)), expr));
+            proof.add(expr);
+            tree.add(new Pair(map, proof));
+            tree.remove(0);
+            tree.remove(1);
+        }
+        return tree.get(0).proof;
+    }
+
 
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new FileReader("input.txt"));
         out = new PrintWriter("output.txt");
         linkings = new ArrayList<>();
         for (int i = 1; i <= 15; ++i) {
-            BufferedReader input = new BufferedReader(new FileReader("expression" + i));
+            BufferedReader input = new BufferedReader(new FileReader("expression" + i + ".txt"));
             linkings.add(new ArrayList<Expression>());
             String s = input.readLine();
             while (s != null) {
                 linkings.get(i - 1).add((new Parser(s)).parse());
-                s = in.readLine();
+                s = input.readLine();
             }
         }
+        tree = new ArrayList<>();
         String input = in.readLine();
         Parser parser = new Parser(input);
         ans = new ArrayList<>();
@@ -225,6 +260,10 @@ public class Main {
         boolean isCorrect = checkExpr();
         if (isCorrect) {
             getProof(0, new TreeMap<String, Boolean>());
+            ArrayList<Expression> answer = getAns();
+            for (Expression ex : answer) {
+                out.println(ex.toString());
+            }
         }
         out.close();
     }

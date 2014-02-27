@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 
-/**
- * Created by Руслан on 24.02.14.
- */
+
 public class Deduction {
     private Expression alpha;
     private Expression beta;
@@ -17,17 +15,17 @@ public class Deduction {
     }
 
     public ArrayList<Expression> getProof() {
-        ArrayList<Expression> ans = new ArrayList<Expression>();
-        boolean isgood = true;
+        ArrayList<Expression> ans = new ArrayList<>();
+        boolean isGood;
         int i = 0;
         for (Expression expr : expressions) {
             i++;
-            isgood = false;
+            isGood = false;
             if (Axioms.checker(expr) != -1) {
                 ans.add(expr);
                 ans.add(new Implication(expr, new Implication(alpha, expr)));
                 ans.add(new Implication(alpha, expr));
-                isgood = true;
+                isGood = true;
                 continue;
             }
             for (Expression g : added) {
@@ -35,10 +33,10 @@ public class Deduction {
                     ans.add(expr);
                     ans.add(new Implication(expr, new Implication(alpha, expr)));
                     ans.add(new Implication(alpha, expr));
-                    isgood = true;
+                    isGood = true;
 
                 }
-                if (isgood) break;
+                if (isGood) break;
             }
             if (alpha.equals(expr)) {
                 ans.add(new Implication(alpha, new Implication(alpha, alpha)));
@@ -49,7 +47,7 @@ public class Deduction {
                         new Implication(alpha, alpha)));
                 ans.add(new Implication(alpha, new Implication(new Implication(alpha, alpha), alpha)));
                 ans.add(new Implication(alpha, alpha));
-                isgood = true;
+                isGood = true;
                 continue;
             }
 
@@ -66,12 +64,12 @@ public class Deduction {
                                 ans.add(new Implication(new Implication(alpha, new Implication(mp2, expr)),
                                         new Implication(alpha, expr)));
                                 ans.add(new Implication(alpha, expr));
-                                isgood = true;
+                                isGood = true;
                                 break;
                             }
                         }
                     }
-                    if (isgood)
+                    if (isGood)
                         break;
                 }
             }
