@@ -16,7 +16,7 @@ public class Deduction {
 
     public ArrayList<Expression> getProof() {
         ArrayList<Expression> ans = new ArrayList<>();
-        boolean isGood;
+        boolean isGood = true;
         int i = 0;
         for (Expression expr : expressions) {
             i++;
@@ -73,7 +73,13 @@ public class Deduction {
                         break;
                 }
             }
+            if (!isGood)
+                break;
         }
-        return ans;
+        if (isGood) {
+            return ans;
+        } else {
+            throw null;
+        }
     }
 }

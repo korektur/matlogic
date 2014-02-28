@@ -71,7 +71,7 @@ public class Main {
             Variable v = (Variable) ex;
             if (v.toString().equals("A")) {
                 return a;
-            } else {
+            } else if (v.toString().equals("B")){
                 return b;
             }
         }
@@ -176,7 +176,7 @@ public class Main {
         if (expr instanceof Negation) {
             Negation neg = (Negation) expr;
             boolean fl = rec(map, neg.getExpr());
-            if (!fl) {
+            if (fl) {
                 ArrayList<Expression> proof = linkings.get(12);
                 for (Expression ex : proof) {
                     ans.add(replace(ex, neg.getExpr(), null));
@@ -187,6 +187,13 @@ public class Main {
                 for (Expression ex : proof) {
                     ans.add(replace(ex, neg.getExpr(), null));
                 }
+                if (neg.getExpr() instanceof Negation) {
+                    proof = linkings.get(14);
+                    for (Expression ex : proof) {
+                        ans.add(replace(ex, neg.getExpr(), null));
+                    }
+                }
+                return true;
             }
 
         }
@@ -201,10 +208,14 @@ public class Main {
             tree.add(p);
             return;
         }
-        map.put(vars.get(index), true);
-        getProof(index + 1, map);
-        map.put(vars.get(index), false);
-        getProof(index + 1, map);
+        Map<String, Boolean> map1 = new TreeMap<>();
+        map1.putAll(map);
+        map1.put(vars.get(index), true);
+        getProof(index + 1, map1);
+        Map<String, Boolean> map2 = new TreeMap<>();
+        map2.putAll(map);
+        map2.put(vars.get(index), false);
+        getProof(index + 1, map2);
     }
 
     public static ArrayList<Expression> getAns() {
@@ -217,11 +228,19 @@ public class Main {
             ArrayList<Expression> g = new ArrayList<>();
             for (String var : vars) {
                 if (map.containsKey(var)) {
-                    g.add(new Variable(var));
+                    if (map.get(var))
+                        g.add(new Variable(var));
+                    else
+                        g.add(new Negation(new Variable(var)));
                 }
             }
             Deduction deduction = new Deduction(alpha, expr, g, p1.proof);
-            ArrayList<Expression> proof = deduction.getProof();
+            ArrayList<Expression> proof = new ArrayList<>();
+            try {
+                proof = deduction.getProof();
+            } catch (NullPointerException e) {
+                return p1.proof;
+            }
             proof.addAll((new Deduction(new Negation(alpha), expr, g, p2.proof)).getProof());
             proof.addAll(ExcludedMiddle.getProof(alpha));
             proof.add(new Implication(new Implication(alpha, expr), new Implication(new Implication(
@@ -232,7 +251,7 @@ public class Main {
             proof.add(expr);
             tree.add(new Pair(map, proof));
             tree.remove(0);
-            tree.remove(1);
+            tree.remove(0);
         }
         return tree.get(0).proof;
     }
@@ -265,6 +284,7 @@ public class Main {
                 out.println(ex.toString());
             }
         }
+
         out.close();
     }
 

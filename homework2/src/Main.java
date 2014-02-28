@@ -86,6 +86,9 @@ public class Main {
                         break;
                 }
             }
+            if (!isgood) {
+                break;
+            }
         }
         if (isgood) {
             for (Expression expr : ans) {

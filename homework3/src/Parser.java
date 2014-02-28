@@ -6,7 +6,7 @@ public class Parser {
 
     public Parser(String expr) {
         this.expr = expr.replaceAll("->", ">");
-        this.variables = new ArrayList<String>();
+        this.variables = new ArrayList<>();
     }
 
     public ArrayList<String> getVariables() {

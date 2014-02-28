@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new FileReader("input.txt"));
+        BufferedReader in = new BufferedReader(new FileReader("C:/Users/Руслан/Documents/GitHub/matlogic/homework3/output.txt"));
         PrintWriter out = new PrintWriter("output.txt");
         ArrayList<Expression> expressions = new ArrayList<Expression>();
         String s = in.readLine();

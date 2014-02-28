@@ -22,7 +22,7 @@ public class ExcludedMiddle {
 
     public static ArrayList<Expression> getProof(Expression alpha) {
         ArrayList<Expression> proof = new ArrayList<>();
-        proof.add(new Implication(alpha, new Disjunction(alpha, alpha)));
+        proof.add(new Implication(alpha, new Disjunction(alpha, new Negation(alpha))));
         proof.addAll(contrPositionRule(alpha, new Disjunction(alpha, new Negation(alpha))));
         proof.add(new Implication(new Negation(new Disjunction(alpha, new Negation(alpha))), new Negation(alpha)));
         proof.add(new Implication(new Negation(alpha), new Disjunction(alpha, new Negation(alpha))));
