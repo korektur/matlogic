@@ -20,4 +20,21 @@ public abstract class Quantifier implements Expression{
         return true;
     }
 
+    public Variable getVar() {
+        return var;
+    }
+
+    public Expression getExpr() {
+        return expr;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof Quantifier) {
+            Quantifier q = (Quantifier) o;
+            return var.equals(q.getVar()) && expr.equals(q.getExpr());
+        }
+        return false;
+    }
+
 }

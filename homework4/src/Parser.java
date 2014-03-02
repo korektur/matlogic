@@ -9,10 +9,6 @@ public class Parser {
         this.variables = new ArrayList<>();
     }
 
-    public ArrayList<String> getVariables() {
-        return variables;
-    }
-
     private ArrayList<Expression> findTerm(int begin, int end) {
         ArrayList<Expression> terms = new ArrayList<>();
         int i = begin;
