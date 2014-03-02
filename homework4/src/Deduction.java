@@ -3,13 +3,11 @@ import java.util.ArrayList;
 
 public class Deduction {
     private Expression alpha;
-    private Expression beta;
     private ArrayList<Expression> added;
     private ArrayList<Expression> expressions;
 
-    public Deduction(Expression alpha, Expression beta, ArrayList<Expression> g, ArrayList<Expression> expressions) {
+    public Deduction(Expression alpha, ArrayList<Expression> g, ArrayList<Expression> expressions) {
         this.alpha = alpha;
-        this.beta = beta;
         this.added = g;
         this.expressions = expressions;
     }

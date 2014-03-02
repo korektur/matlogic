@@ -14,9 +14,8 @@ public class ExcludedMiddle {
         proof.add(new Negation(beta));
         proof.add(new Implication(alpha, new Negation(beta)));
         proof.add(new Negation(alpha));
-        proof = (new Deduction(new Negation(beta), new Negation(alpha), g, proof)).getProof();
-        proof = (new Deduction(g.get(0), new Implication(new Negation(beta),
-                new Negation(alpha)), new ArrayList<Expression>(), proof)).getProof();
+        proof = (new Deduction(new Negation(beta), g, proof)).getProof();
+        proof = (new Deduction(g.get(0), new ArrayList<Expression>(), proof)).getProof();
         return proof;
     }
 
