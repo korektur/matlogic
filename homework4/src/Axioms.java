@@ -1,3 +1,6 @@
+import java.security.Permission;
+import java.util.ArrayList;
+
 public class Axioms {
 
     private static boolean check1(Expression e) {
@@ -163,6 +166,84 @@ public class Axioms {
         return false;
     }
 
+    private static boolean check11(Expression e) {
+        if (e instanceof Implication) {
+            Implication impl = (Implication) e;
+            if (impl.getLeft() instanceof ForAll) {
+                ForAll forall = (ForAll) e;
+                Expression expr = Main.getExchange(forall.getExpr(), impl.getRight());
+                if(expr != null && change(forall.getExpr(), expr, forall.getVar()).equals(impl.getRight())){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private static boolean check12(Expression e) {
+        if (e instanceof Implication) {
+            Implication impl = (Implication)e;
+            if (impl.getRight() instanceof Exists) {
+                Exists exists = (Exists) impl.getRight();
+                Expression expr = Main.getExchange(exists.getExpr(), impl.getLeft());
+                if (expr != null && change(exists.getExpr(), expr, exists.getVar()).equals(impl.getLeft())){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public static Expression change(Expression e, Expression a, Expression x) {
+        if (e instanceof Variable) {
+            Variable v = (Variable) e;
+            if (v.equals(x)){
+                return a;
+            }
+            return v;
+        }
+        if (e instanceof Predicate) {
+            Predicate p = (Predicate) e;
+            ArrayList<Expression> terms = new ArrayList<>();
+            for (Expression term : p.getTerms()) {
+                terms.add(change(term, a, x));
+            }
+            return new Predicate(p.getName(), terms);
+        }
+        if (e instanceof Conjunction) {
+            Conjunction conj = (Conjunction) e;
+            return new Conjunction(change(conj.getLeft(), a, x), change(conj.getRight(), a, x));
+        }
+
+        if (e instanceof Disjunction) {
+            Disjunction disj = (Disjunction) e;
+            return new Disjunction(change(disj.getLeft(), a, x), change(disj.getRight(), a, x));
+        }
+
+        if (e instanceof Implication) {
+            Implication impl = (Implication) e;
+            return new Implication(change(impl.getLeft(), a, x), change(impl.getRight(), a, x));
+        }
+
+        if (e instanceof Negation) {
+            Negation neg = (Negation) e;
+            return new Negation(change(neg.getExpr(), a, x));
+        }
+
+        if (e instanceof Exists) {
+            Exists exists = (Exists) e;
+            return new Exists((Variable)change(exists.getVar(), a, x), change(exists.getExpr(), a, x));
+        }
+
+        if (e instanceof ForAll) {
+            ForAll forAll = (ForAll) e;
+            forAll = new ForAll((Variable)change(forAll.getVar(), a, x), change(forAll.getExpr(), a, x));
+            return forAll;
+        }
+        return null;
+    }
+
+
     public static int checker(Expression e){
         if (check1(e)) return 1;
         if (check2(e)) return 2;
@@ -174,6 +255,8 @@ public class Axioms {
         if (check8(e)) return 8;
         if (check9(e)) return 9;
         if (check10(e)) return 10;
+        if (check11(e)) return 11;
+        if (check12(e)) return 12;
         return -1;
     }
 }
