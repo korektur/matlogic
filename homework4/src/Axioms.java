@@ -170,9 +170,12 @@ public class Axioms {
         if (e instanceof Implication) {
             Implication impl = (Implication) e;
             if (impl.getLeft() instanceof ForAll) {
-                ForAll forall = (ForAll) e;
+                ForAll forall = (ForAll) impl.getLeft();
                 Expression expr = Main.getExchange(forall.getExpr(), impl.getRight());
-                if(expr != null && change(forall.getExpr(), expr, forall.getVar()).equals(impl.getRight())){
+                if (expr == null) {
+                    expr = forall.getVar();
+                }
+                if(change(forall.getExpr(), expr, forall.getVar()).equals(impl.getRight())){
                     return true;
                 }
             }
@@ -186,7 +189,10 @@ public class Axioms {
             if (impl.getRight() instanceof Exists) {
                 Exists exists = (Exists) impl.getRight();
                 Expression expr = Main.getExchange(exists.getExpr(), impl.getLeft());
-                if (expr != null && change(exists.getExpr(), expr, exists.getVar()).equals(impl.getLeft())){
+                if (expr == null) {
+                    expr = exists.getVar();
+                }
+                if (change(exists.getExpr(), expr, exists.getVar()).equals(impl.getLeft())){
                     return true;
                 }
             }

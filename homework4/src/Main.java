@@ -379,12 +379,14 @@ public class Main {
             if (isGood) {
                 for (Expression expr : ans) {
                     out.println(expr.toString());
+
                 }
             } else {
-                out.print("Вывод некорректен начиная с формулы " + (i + 1));
+                out.print("Вывод некорректен начиная с формулы " + i);
 
             }
         } catch (Exception e) {
+            //e.printStackTrace();
             out.println(e.getMessage());
         }
         out.close();
