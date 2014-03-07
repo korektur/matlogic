@@ -2,10 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c150df-1186-44ee-a956-0d9d17b1c355" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Axioms.java" afterPath="$PROJECT_DIR$/src/Axioms.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Axioms.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/BinaryOp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Conjunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Disjunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Equals.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Exists.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Expression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/ForAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Implication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/MpExist.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/MpForAll.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Negation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Plus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Predicate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Quantifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Variable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/axiom.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/homework5.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/input.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/intro.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/intro2.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/must-fail.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/must-fail2.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/must-fail3.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/output.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homewor1.iws" />
@@ -90,19 +125,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser.java">
+      <file leaf-file-name="must-fail2.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/must-fail2.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
+            <state line="1" column="13" selection-start="35" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="must-fail2.in" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/must-fail2.in">
+      <file leaf-file-name="axiom.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/axiom.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.064150944" vertical-offset="0" max-vertical-offset="530">
+            <state line="8" column="0" selection-start="0" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -111,7 +146,7 @@
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="9554">
+            <state line="1" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -126,19 +161,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
+      <file leaf-file-name="must-fail.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/must-fail.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+            <state line="0" column="8" selection-start="7" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="must-fail.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/must-fail.in">
+      <file leaf-file-name="intro.in" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intro.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="0" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
               <folding />
             </state>
           </provider>
@@ -174,7 +209,7 @@
       <file leaf-file-name="Quantifier.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Quantifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="782">
+            <state line="23" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -257,8 +292,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -293,6 +326,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +346,7 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homework5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="va&#10;{" />
     <property name="project.structure.last.edited" value="Project" />
@@ -623,7 +658,10 @@
       <workItem from="1393848653455" duration="3204000" />
       <workItem from="1393875834430" duration="7945000" />
       <workItem from="1393916805094" duration="848000" />
-      <workItem from="1393918117222" duration="1581000" />
+      <workItem from="1393918117222" duration="1687000" />
+      <workItem from="1393921533754" duration="287000" />
+      <workItem from="1393929321121" duration="285000" />
+      <workItem from="1394190027048" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="some classes added">
       <created>1392123706474</created>
@@ -677,7 +715,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100546000" />
+    <option name="totallyTimeSpent" value="101417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
@@ -703,12 +741,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20988446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33012047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994911" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -889,11 +927,6 @@
         <state line="9" column="14" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/axiom.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MpForAll.in">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="14" selection-start="5359" selection-end="5359" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="5151">
@@ -978,20 +1011,6 @@
         <state line="36" column="23" selection-start="0" selection-end="7193" vertical-scroll-proportion="1.1837524" vertical-offset="0" max-vertical-offset="1411" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Axioms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="19" selection-start="7655" selection-end="7655" vertical-scroll-proportion="0.0" vertical-offset="2509" max-vertical-offset="4641">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/must-fail.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="0" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="5" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
@@ -999,9 +1018,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/axiom.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="361" column="64" selection-start="17253" selection-end="17253" vertical-scroll-proportion="0.0" vertical-offset="5811" max-vertical-offset="6800">
+        <state line="8" column="0" selection-start="0" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
@@ -1013,30 +1032,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intro.in">
+    <entry file="file://$PROJECT_DIR$/must-fail2.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530">
+        <state line="1" column="13" selection-start="35" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="394" column="0" selection-start="18545" selection-end="18545" vertical-scroll-proportion="0.93672454" vertical-offset="5926" max-vertical-offset="6800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Axioms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="19" selection-start="7655" selection-end="7655" vertical-scroll-proportion="-1.0459057" vertical-offset="3835" max-vertical-offset="4641">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+        <state line="1" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+        <state line="7" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.22410546" vertical-offset="0" max-vertical-offset="531">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/must-fail2.in">
+    <entry file="file://$PROJECT_DIR$/must-fail.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.064150944" vertical-offset="0" max-vertical-offset="530">
+        <state line="0" column="8" selection-start="7" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
