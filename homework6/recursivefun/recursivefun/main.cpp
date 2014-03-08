@@ -1,9 +1,8 @@
 #include "functions.h"
 
-
 int main(){
-	std::cout << S<R<Z, U<3, 2>>, U<1, 1>, U<1, 1>>::eval(8);
-	std::cout << std::endl;
-	system("pause");
+	FILE* f = freopen("out.txt", "w", stdout);
+        print_out<PLOG>(2, 32);
+	fclose(f);
 	return 0;
 }
