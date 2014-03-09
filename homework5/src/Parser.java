@@ -2,137 +2,193 @@ import java.util.ArrayList;
 
 public class Parser {
     private String expr;
-    private ArrayList<String> variables;
 
     public Parser(String expr) {
         this.expr = expr.replaceAll("->", ">");
-        this.variables = new ArrayList<>();
     }
 
-    private ArrayList<Expression> findTerm(int begin, int end) {
-        ArrayList<Expression> terms = new ArrayList<>();
-        int i = begin;
-        int balance = 1;
-        while (i < end && balance != 0) {
-            if (expr.charAt(i) == ')') {
-                --balance;
-            }
+    private Expression impl(int l, int r) {
+        int balance = 0;
+        for (int i = l; i < r; ++i) {
             if (expr.charAt(i) == '(') {
                 ++balance;
+            } else if (expr.charAt(i) == ')') {
+                --balance;
+            } else if (expr.charAt(i) == '>' && balance == 0) {
+                return new Implication(disj(l, i), impl(i + 1, r));
             }
-            if (Character.isAlphabetic(expr.charAt(i))) {
-                String name = "";
-                while (i < end && ((Character.isAlphabetic(expr.charAt(i)) || Character.isDigit(expr.charAt(i))))) {
-                    name += expr.charAt(i);
-                    ++i;
-                }
-                if (i < end && '(' == expr.charAt(i)) {
-                    terms.add(new Predicate(name, findTerm(i + 1, end)));
-                } else {
-                    terms.add(new Variable(name));
-                }
-            }
-            ++i;
         }
-        return terms;
+        return disj(l, r);
     }
 
-    private Expression parse(int begin, int end) {
-
+    private Expression disj(int l, int r) {
         int balance = 0;
-        for (int i = begin; i < end; ++i) {
+        int index = -1;
+        for (int i = l; i < r; ++i) {
             if (expr.charAt(i) == '(') {
-                balance++;
-            }
-            if (expr.charAt(i) == ')') {
-                balance--;
-            }
-            if (expr.charAt(i) == '>' && balance == 0) {
-                return new Implication(parse(begin, i), parse(i + 1, end));
+                ++balance;
+            } else if (expr.charAt(i) == ')') {
+                --balance;
+            } else if (expr.charAt(i) == '|' && balance == 0) {
+                index = i;
             }
         }
+        if (index != -1) {
+            return new Disjunction(disj(l, index), conj(index + 1, r));
+        }
+        return conj(l, r);
+    }
 
-        balance = 0;
-        for (int i = begin; i < end; ++i) {
+    private Expression conj(int l, int r) {
+        int balance = 0;
+        int index = -1;
+        for (int i = l; i < r; ++i) {
             if (expr.charAt(i) == '(') {
-                balance++;
-            }
-            if (expr.charAt(i) == ')') {
-                balance--;
-            }
-            if (expr.charAt(i) == '|' && balance == 0) {
-                return new Disjunction(parse(begin, i), parse(i + 1, end));
+                ++balance;
+            } else if (expr.charAt(i) == ')') {
+                --balance;
+            } else if (expr.charAt(i) == '&' && balance == 0) {
+                index = i;
             }
         }
-
-        balance = 0;
-        for (int i = begin; i < end; ++i) {
-            if (expr.charAt(i) == '(') {
-                balance++;
-            }
-            if (expr.charAt(i) == ')') {
-                balance--;
-            }
-            if (expr.charAt(i) == '&' && balance == 0) {
-                return new Conjunction(parse(begin, i), parse(i + 1, end));
-            }
+        if (index != -1) {
+            return new Conjunction(conj(l, index), unary(index + 1, r));
         }
+        return unary(l, r);
+    }
 
-        if (Character.isAlphabetic(expr.charAt(begin)) && Character.isUpperCase(expr.charAt(begin))) {
+    private Expression unary(int l, int r) {
+        if (expr.charAt(l) == '!') {
+            return new Negation(unary(l + 1, r));
+        }
+        if (expr.charAt(l) == '(' && expr.charAt(r - 1) == ')') {
+            boolean fl = true;
+            int balance = 1;
+            for (int i = l + 1; i < r - 1; ++i) {
+                if (expr.charAt(i) == '(') {
+                    ++balance;
+                }
+                if (expr.charAt(i) == ')') {
+                    --balance;
+                }
+                if (balance == 0)
+                    fl = false;
+            }
+            if (fl)
+                return impl(l + 1, r - 1);
+        }
+        if (expr.charAt(l) == '@') {
+            Variable v = (Variable) var(l + 1, r);
+            return new ForAll(v, unary(l + 1 + v.toString().length(), r));
+        }
+        return pred(l, r);
+    }
+
+    private Expression pred(int l, int r) {
+        if (Character.isAlphabetic(expr.charAt(l)) && Character.isUpperCase(expr.charAt(l))) {
             String name = "";
-            int i = begin;
-            while (i < end && (Character.isAlphabetic(expr.charAt(i)) || Character.isDigit(expr.charAt(i)))) {
-                name += expr.charAt(i);
-                ++i;
+            int index = l;
+            while (index < r && (Character.isDigit(expr.charAt(index)) || (Character.isAlphabetic(expr.charAt(index))
+                    && Character.isUpperCase(expr.charAt(index))))) {
+                name += expr.charAt(index++);
             }
             ArrayList<Expression> terms = new ArrayList<>();
-            if (i < end && '(' == expr.charAt(i)) {
-                terms = findTerm(i + 1, end);
+            ++index;
+            int ll = index;
+            while (index <= r - 1) {
+                if (expr.charAt(index) == ',' || index == r - 1) {
+                    terms.add(term(ll, index));
+                    ll = index + 1;
+                }
+                ++index;
             }
             return new Predicate(name, terms);
-        }
-
-        if (expr.charAt(begin) == '@' || expr.charAt(begin) == '?') {
-            int i = begin + 1;
-            String name = "";
-            while (i < end && ((Character.isAlphabetic(expr.charAt(i)) && Character.isLowerCase(expr.charAt(i)))
-                    || Character.isDigit(expr.charAt(i)))) {
-                name += expr.charAt(i);
-                ++i;
-            }
-            if (expr.charAt(begin) == '@') {
-                return new ForAll(new Variable(name), parse(i, end));
-            } else {
-                return new Exists(new Variable(name), parse(i, end));
+        } else {
+            for (int i = l; i < r; ++i) {
+                if (expr.charAt(i) == '=') {
+                    return new Equals(term(l, i), term(i + 1, r));
+                }
             }
         }
-
-        if (expr.charAt(begin) == '!') {
-            return new Negation(parse(begin + 1, end));
-        }
-
-        if (Character.isAlphabetic(expr.charAt(begin)) && Character.isLowerCase(expr.charAt(begin))) {
-            String s = "";
-            int i = begin;
-            while (i < end && (Character.isAlphabetic(expr.charAt(i)) || Character.isDigit(expr.charAt(i)))) {
-                s += expr.charAt(i);
-                ++i;
-            }
-            if (!variables.contains(s)) {
-                variables.add(s);
-            }
-            return new Variable(s);
-        }
-
-
-        if (expr.charAt(begin) == '(') {
-            return parse(begin + 1, end - 1);
-        }
-
         return null;
     }
 
+    private Expression term(int l, int r) {
+        int index = -1;
+        int balance = 0;
+        for (int i = l; i < r; ++i) {
+            if (expr.charAt(i) == ')') {
+                --balance;
+            } else if (expr.charAt(i) == '(') {
+                ++balance;
+            } else if (expr.charAt(i) == '+' && balance == 0) {
+                index = i;
+            }
+        }
+        if (index != -1) {
+            return new Plus(term(l, index), plus(index + 1, r));
+        }
+        return plus(l, r);
+    }
+
+    private Expression plus(int l, int r) {
+        int index = -1;
+        int balance = 0;
+        for (int i = l; i < r; ++i) {
+            if (expr.charAt(i) == ')') {
+                --balance;
+            } else if (expr.charAt(i) == '(') {
+                ++balance;
+            } else if (expr.charAt(i) == '*' && balance == 0) {
+                index = i;
+            }
+        }
+        if (index != -1) {
+            return new Times(plus(l, index), times(index + 1, r));
+        }
+        return times(l, r);
+    }
+
+    private Expression times(int l, int r) {
+        if (expr.charAt(r - 1) == '\'') {
+            return new Apostrophe(times(l, r - 1));
+        }
+        if (expr.charAt(l) == '0') {
+            return new Zero();
+        }
+
+        if (expr.charAt(l) == '(') {
+            return term(l + 1, r - 1);
+        }
+        String name = var(l, r).toString();
+        if (l + name.length() == r) {
+            return new Variable(name);
+        }
+        ArrayList<Expression> terms = new ArrayList<>();
+        int index = l + name.length();
+        ++index;
+        int ll = index;
+        while (index <= r - 1) {
+            if (expr.charAt(index) == ',' || index == r - 1) {
+                terms.add(term(ll, index));
+                ll = index + 1;
+            }
+            ++index;
+        }
+        return new Predicate(name, terms);
+    }
+
+    private Expression var(int l, int r) {
+        String name = "";
+        int index = l;
+        while (index < r && (Character.isDigit(expr.charAt(index)) || (Character.isAlphabetic(expr.charAt(index))
+                && Character.isLowerCase(expr.charAt(index))))) {
+            name += expr.charAt(index++);
+        }
+        return new Variable(name);
+    }
+
     public Expression parse() {
-        return parse(0, expr.length());
+        return impl(0, expr.length());
     }
 }

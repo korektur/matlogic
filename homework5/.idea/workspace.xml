@@ -2,49 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c150df-1186-44ee-a956-0d9d17b1c355" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Apostrophe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Axioms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinaryOp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Conjunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Disjunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Equals.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Exists.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Expression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ForAll.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Implication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MpExist.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MpForAll.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Negation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Plus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Predicate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Quantifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Times.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Variable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Zero.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/axiom.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/homework5.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intro2.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/must-fail.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/must-fail2.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/must-fail3.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/input.txt" afterPath="$PROJECT_DIR$/../homework4/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/output.txt" afterPath="$PROJECT_DIR$/../homework4/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homework4/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\MpExist.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\MpForAll.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\axiom.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\intro.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\intro2.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\must-fail2.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\must-fail3.in" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Axioms.java" afterPath="$PROJECT_DIR$/src/Axioms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/src/Main.java" afterPath="$PROJECT_DIR$/../homework4/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parser.java" afterPath="$PROJECT_DIR$/src/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/must-fail.in" afterPath="$PROJECT_DIR$/must-fail.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework6/recursivefun/recursivefun.sln" afterPath="$PROJECT_DIR$/../homework6/recursivefun/recursivefun.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homewor1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,7 +76,37 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="195" class="Main" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="265" class="Main" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="139" class="Main" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="i == 5&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Axioms.java" line="416" class="Axioms" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -128,37 +131,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="must-fail2.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/must-fail2.in">
+      <file leaf-file-name="input.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="35" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="136">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Equals.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Equals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="78" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Plus.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Plus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Times.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Times.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+            <state line="23" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.48775893" vertical-offset="132" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -173,22 +149,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Apostrophe.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Apostrophe.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Apostrophe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="804">
-              <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-              </folding>
+            <state line="2" column="13" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="629">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="axiom.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/axiom.in">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="0" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+            <state line="179" column="47" selection-start="7986" selection-end="7986" vertical-scroll-proportion="0.0" vertical-offset="2771" max-vertical-offset="4743">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plus.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Plus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -197,26 +179,52 @@
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="must-fail3.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/must-fail3.in">
+      <file leaf-file-name="Parser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="7224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+            <state line="87" column="0" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.0" vertical-offset="2579" max-vertical-offset="3383">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="must-fail.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/must-fail.in">
+      <file leaf-file-name="Negation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="0" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+            <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryOp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinaryOp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="578">
+              <folding>
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quantifier.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Quantifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="782">
+              <folding>
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,7 +256,6 @@
         <option value="$PROJECT_DIR$/expression10.txt" />
         <option value="$PROJECT_DIR$/src/Term.java" />
         <option value="$PROJECT_DIR$/src/Quantifiler.java" />
-        <option value="$PROJECT_DIR$/output.txt" />
         <option value="$PROJECT_DIR$/axiom.in" />
         <option value="$PROJECT_DIR$/src/Deduction.java" />
         <option value="$PROJECT_DIR$/src/Quantifier.java" />
@@ -258,17 +265,19 @@
         <option value="$PROJECT_DIR$/MpExist.in" />
         <option value="$PROJECT_DIR$/src/Predicate.java" />
         <option value="$PROJECT_DIR$/src/ExcludedMiddle.java" />
-        <option value="$PROJECT_DIR$/src/Parser.java" />
-        <option value="$PROJECT_DIR$/src/Axioms.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/must-fail3.in" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/Equals.java" />
         <option value="$PROJECT_DIR$/src/Plus.java" />
         <option value="$PROJECT_DIR$/src/Mult.java" />
         <option value="$PROJECT_DIR$/src/Times.java" />
         <option value="$PROJECT_DIR$/src/Zero.java" />
         <option value="$PROJECT_DIR$/src/Apostrophe.java" />
+        <option value="$PROJECT_DIR$/must-fail.in" />
+        <option value="$PROJECT_DIR$/src/Parser.java" />
+        <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/src/Axioms.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/input.txt" />
       </list>
     </option>
   </component>
@@ -304,8 +313,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,6 +347,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -675,6 +684,9 @@
       <workItem from="1393929611436" duration="1304000" />
       <workItem from="1393933434448" duration="19000" />
       <workItem from="1394190220916" duration="1799000" />
+      <workItem from="1394266934378" duration="9393000" />
+      <workItem from="1394369802825" duration="3143000" />
+      <workItem from="1394388083252" duration="9127000" />
     </task>
     <task id="LOCAL-00001" summary="some classes added">
       <created>1392123706474</created>
@@ -728,11 +740,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104061000" />
+    <option name="totallyTimeSpent" value="125724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -742,13 +754,13 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47127783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3819277" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -797,6 +809,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/must-fail.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="21" selection-start="0" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflexive.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/induction.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="12" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Axioms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="321" column="21" selection-start="13162" selection-end="13162" vertical-scroll-proportion="0.0" vertical-offset="5457" max-vertical-offset="5882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Axioms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="142" column="52" selection-start="6434" selection-end="6434" vertical-scroll-proportion="0.0" vertical-offset="1970" max-vertical-offset="2924" />
@@ -913,33 +960,9 @@
         <state line="9" column="14" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MpForAll.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="14" selection-start="5359" selection-end="5359" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="5151" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quantifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Negation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.102" vertical-offset="0" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="35" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Expression.java">
@@ -957,101 +980,14 @@
         <state line="55" column="6" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1190" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MpExist.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="328" column="19" selection-start="37191" selection-end="37191" vertical-scroll-proportion="0.0" vertical-offset="5191" max-vertical-offset="5678">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Disjunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
+        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Exists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="43" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intro2.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="23" selection-start="0" selection-end="7193" vertical-scroll-proportion="1.1837524" vertical-offset="0" max-vertical-offset="1411" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Axioms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="19" selection-start="7655" selection-end="7655" vertical-scroll-proportion="0.0" vertical-offset="2509" max-vertical-offset="4641">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="361" column="64" selection-start="17253" selection-end="17253" vertical-scroll-proportion="0.0" vertical-offset="5811" max-vertical-offset="6800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intro.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/axiom.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="0" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/must-fail.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="0" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="93" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/must-fail3.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="7224" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/must-fail2.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="35" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
           <folding />
         </state>
       </provider>
@@ -1070,16 +1006,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plus.java">
+    <entry file="file://$PROJECT_DIR$/src/Times.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="12" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Times.java">
+    <entry file="file://$PROJECT_DIR$/src/ForAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state line="13" column="35" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
@@ -1091,13 +1034,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quantifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="782">
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="578">
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.0" vertical-offset="2579" max-vertical-offset="3383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Apostrophe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="804">
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
+        <state line="2" column="13" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Axioms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="458" column="0" selection-start="19166" selection-end="19166" vertical-scroll-proportion="0.0" vertical-offset="7469" max-vertical-offset="7956">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="47" selection-start="7986" selection-end="7986" vertical-scroll-proportion="0.0" vertical-offset="2771" max-vertical-offset="4743">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflexive.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="0" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/induction.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="5" selection-start="0" selection-end="2827" vertical-scroll-proportion="1.8455744" vertical-offset="669" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/must-fail.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="0" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="26" selection-start="530" selection-end="530" vertical-scroll-proportion="0.48775893" vertical-offset="132" max-vertical-offset="663">
+          <folding />
         </state>
       </provider>
     </entry>

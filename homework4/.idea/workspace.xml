@@ -2,46 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c150df-1186-44ee-a956-0d9d17b1c355" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Axioms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/BinaryOp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Conjunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Disjunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Equals.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Exists.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Expression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/ForAll.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Implication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/MpExist.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/MpForAll.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Negation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Parser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Plus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Predicate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Quantifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/src/Variable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/axiom.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/homework5.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/intro.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/intro2.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/must-fail.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/must-fail2.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/must-fail3.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/output.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../homework5/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homework3/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\MpExist.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\MpForAll.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\axiom.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\intro.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\intro2.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\must-fail2.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Руслан\Documents\GitHub\matlogic\homework5\must-fail3.in" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/out/production/homework5/Axioms.class" afterPath="$PROJECT_DIR$/../homework5/out/production/homework5/Axioms.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/out/production/homework5/Main.class" afterPath="$PROJECT_DIR$/../homework5/out/production/homework5/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/out/production/homework5/Parser.class" afterPath="$PROJECT_DIR$/../homework5/out/production/homework5/Parser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/src/Axioms.java" afterPath="$PROJECT_DIR$/../homework5/src/Axioms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/src/Main.java" afterPath="$PROJECT_DIR$/../homework5/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/src/Parser.java" afterPath="$PROJECT_DIR$/../homework5/src/Parser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/input.txt" afterPath="$PROJECT_DIR$/../homework5/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/must-fail.in" afterPath="$PROJECT_DIR$/../homework5/must-fail.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/output.txt" afterPath="$PROJECT_DIR$/../homework5/output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework6/recursivefun/recursivefun.sln" afterPath="$PROJECT_DIR$/../homework6/recursivefun/recursivefun.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homework5/.idea/workspace.xml" />
     </list>
     <ignored path="homewor1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,7 +79,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="195" class="Main" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="207" class="Main" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -128,7 +107,7 @@
       <file leaf-file-name="must-fail2.in" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/must-fail2.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="35" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+            <state line="1" column="13" selection-start="35" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="136">
               <folding />
             </state>
           </provider>
@@ -146,7 +125,7 @@
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+            <state line="1" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -170,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intro.in" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/intro.in">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
+            <state line="103" column="4" selection-start="3764" selection-end="4157" vertical-scroll-proportion="0.72512436" vertical-offset="1151" max-vertical-offset="7004">
               <folding />
             </state>
           </provider>
@@ -254,9 +233,9 @@
         <option value="$PROJECT_DIR$/src/ExcludedMiddle.java" />
         <option value="$PROJECT_DIR$/src/Parser.java" />
         <option value="$PROJECT_DIR$/src/Axioms.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/must-fail3.in" />
         <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -292,6 +271,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,7 +306,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -662,6 +641,7 @@
       <workItem from="1393921533754" duration="287000" />
       <workItem from="1393929321121" duration="285000" />
       <workItem from="1394190027048" duration="193000" />
+      <workItem from="1394390732894" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="some classes added">
       <created>1392123706474</created>
@@ -715,11 +695,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101417000" />
+    <option name="totallyTimeSpent" value="103321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -734,7 +714,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -742,11 +721,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20988446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994911" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1039,13 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="0" selection-start="18545" selection-end="18545" vertical-scroll-proportion="0.93672454" vertical-offset="5926" max-vertical-offset="6800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Axioms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="177" column="19" selection-start="7655" selection-end="7655" vertical-scroll-proportion="-1.0459057" vertical-offset="3835" max-vertical-offset="4641">
@@ -1062,9 +1035,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.22410546" vertical-offset="0" max-vertical-offset="531">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.22410546" vertical-offset="0" max-vertical-offset="531" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/must-fail.in">
@@ -1077,6 +1048,13 @@
     <entry file="file://$PROJECT_DIR$/intro.in">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="4" selection-start="3764" selection-end="4157" vertical-scroll-proportion="0.72512436" vertical-offset="1151" max-vertical-offset="7004">
           <folding />
         </state>
       </provider>
