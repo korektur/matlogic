@@ -81,6 +81,10 @@ public class Parser {
             Variable v = (Variable) var(l + 1, r);
             return new ForAll(v, unary(l + 1 + v.toString().length(), r));
         }
+        if (expr.charAt(l) == '?') {
+            Variable v = (Variable) var(l + 1, r);
+            return new Exists(v, unary(l + 1 + v.toString().length(), r));
+        }
         return pred(l, r);
     }
 

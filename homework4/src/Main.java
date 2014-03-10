@@ -215,31 +215,34 @@ public class Main {
                         if (checker == 11) {
                             ForAll forAll = (ForAll) ((Implication) expr).getLeft();
                             v = forAll.getVar();
-                            ArrayList<Variable> v1 = getVariables(forAll.getExpr());
-                            v1.add(forAll.getVar());
-                            Expression term = ((Implication)expr).getRight();
+                            ArrayList<Variable> v1 = getChainedVariables(forAll);
+                            Expression term = ((Implication) expr).getRight();
                             term = getExchange(forAll.getExpr(), term);
-                            ArrayList<Variable> v2 = getVariables(getExchange(forAll.getExpr(), term));
-                            for(Variable x : v2) {
-                                if (v1.contains(x)){
-                                    throw new Exception("Вывод некорректен начиная с формулы " + (i + 1) + ": " +
-                                    "терм " + term.toString() + "не свободен для подстановки в формулу " +
-                                    forAll.getExpr().toString() + " вместо переменной " + forAll.getVar().toString());
+                            ArrayList<Variable> v2 = getVariables(term);
+                            if (!forAll.getVar().equals(term) && term != null) {
+                                for (Variable x : v2) {
+                                    if (v1.contains(x)) {
+                                        throw new Exception("Вывод некорректен начиная с формулы " + (i + 1) + ": " +
+                                                "терм " + term.toString() + "не свободен для подстановки в формулу " +
+                                                forAll.getExpr().toString() + " вместо переменной " + forAll.getVar().toString());
+                                    }
                                 }
                             }
                         } else {
                             Exists exists = (Exists) ((Implication) expr).getRight();
                             v = exists.getVar();
-                            ArrayList<Variable> v1 = getVariables(exists.getExpr());
+                            ArrayList<Variable> v1 = getChainedVariables(exists);
                             v1.add(exists.getVar());
-                            Expression term = ((Implication)expr).getLeft();
+                            Expression term = ((Implication) expr).getLeft();
                             term = getExchange(exists.getExpr(), term);
-                            ArrayList<Variable> v2 = getVariables(getExchange(exists.getExpr(), term));
-                            for(Variable x : v2) {
-                                if (v1.contains(x)){
-                                    throw new Exception("Вывод некорректен начиная с формулы " + (i + 1) + ": " +
-                                            "терм " + term.toString() + "не свободен для подстановки в формулу " +
-                                            exists.getExpr().toString() + " вместо переменной " + exists.getVar().toString());
+                            ArrayList<Variable> v2 = getVariables(term);
+                            if (term != null && !exists.getVar().equals(term)) {
+                                for (Variable x : v2) {
+                                    if (v1.contains(x)) {
+                                        throw new Exception("Вывод некорректен начиная с формулы " + (i + 1) + ": " +
+                                                "терм " + term.toString() + "не свободен для подстановки в формулу " +
+                                                exists.getExpr().toString() + " вместо переменной " + exists.getVar().toString());
+                                    }
                                 }
                             }
                         }
@@ -394,7 +397,7 @@ public class Main {
 
                 }
             } else {
-                out.print("Вывод некорректен начиная с формулы " + i);
+                out.print("Вывод некорректен начиная с формулы " + (i + 1));
 
             }
         } catch (Exception e) {

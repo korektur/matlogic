@@ -7,7 +7,11 @@ public class Axioms {
             Implication impl1 = (Implication) e;
             if (impl1.getRight() instanceof Implication) {
                 Implication impl2 = (Implication) impl1.getRight();
+                try {
                 return (impl1.getLeft().equals(impl2.getRight()));
+                } catch (NullPointerException ee) {
+
+                }
             }
         }
         return false;
