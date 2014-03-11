@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93c150df-1186-44ee-a956-0d9d17b1c355" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/out/production/homework5/Axioms.class" afterPath="$PROJECT_DIR$/../homework5/out/production/homework5/Axioms.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/out/production/homework5/Parser.class" afterPath="$PROJECT_DIR$/../homework5/out/production/homework5/Parser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/src/Axioms.java" afterPath="$PROJECT_DIR$/../homework5/src/Axioms.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/src/Main.java" afterPath="$PROJECT_DIR$/../homework5/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parser.java" afterPath="$PROJECT_DIR$/src/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/src/Parser.java" afterPath="$PROJECT_DIR$/../homework5/src/Parser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/input.txt" afterPath="$PROJECT_DIR$/../homework5/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/must-fail.in" afterPath="$PROJECT_DIR$/../homework5/must-fail.in" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/output.txt" afterPath="$PROJECT_DIR$/../homework5/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework6/recursivefun/recursivefun.sln" afterPath="$PROJECT_DIR$/../homework6/recursivefun/recursivefun.sln" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework5/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homework5/.idea/workspace.xml" />
     </list>
     <ignored path="homewor1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +80,7 @@
       <file leaf-file-name="must-fail2.in" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/must-fail2.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="0" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+            <state line="1" column="13" selection-start="0" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="136">
               <folding />
             </state>
           </provider>
@@ -96,7 +89,7 @@
       <file leaf-file-name="axiom.in" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/axiom.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="0" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="8" column="0" selection-start="0" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -105,16 +98,7 @@
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5508">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="must-fail3.in" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/must-fail3.in">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="7224" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1428">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -123,7 +107,16 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="24" selection-start="7868" selection-end="10883" vertical-scroll-proportion="0.19962335" vertical-offset="3515" max-vertical-offset="7055">
+            <state line="140" column="5" selection-start="3759" selection-end="5166" vertical-scroll-proportion="0.8719397" vertical-offset="1900" max-vertical-offset="7514">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="must-fail3.in" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/must-fail3.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="7224" vertical-scroll-proportion="0.0" vertical-offset="635" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -251,7 +244,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -286,6 +278,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -623,6 +616,7 @@
       <workItem from="1394190027048" duration="193000" />
       <workItem from="1394390732894" duration="1904000" />
       <workItem from="1394462282803" duration="3780000" />
+      <workItem from="1394564655010" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="some classes added">
       <created>1392123706474</created>
@@ -676,7 +670,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107101000" />
+    <option name="totallyTimeSpent" value="108843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
@@ -702,13 +696,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20988446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994911" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -962,9 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/intro2.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="0" selection-end="7193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-          <folding />
-        </state>
+        <state line="30" column="19" selection-start="0" selection-end="7193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MpExist.in">
@@ -1016,11 +1008,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
+    <entry file="file://$PROJECT_DIR$/intro.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="12" selection-start="0" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
@@ -1030,16 +1020,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intro.in">
+    <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="0" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
+        <state line="0" column="0" selection-start="0" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="24" selection-start="7868" selection-end="10883" vertical-scroll-proportion="0.19962335" vertical-offset="3515" max-vertical-offset="7055">
+        <state line="140" column="5" selection-start="3759" selection-end="5166" vertical-scroll-proportion="0.8719397" vertical-offset="1900" max-vertical-offset="7514">
           <folding />
         </state>
       </provider>

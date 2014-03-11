@@ -3,19 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="93c150df-1186-44ee-a956-0d9d17b1c355" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/out/production/homework4/Main.class" afterPath="$PROJECT_DIR$/../homework4/out/production/homework4/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Axioms.java" afterPath="$PROJECT_DIR$/src/Axioms.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/src/Main.java" afterPath="$PROJECT_DIR$/../homework4/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/src/Parser.java" afterPath="$PROJECT_DIR$/../homework4/src/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parser.java" afterPath="$PROJECT_DIR$/src/Parser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/input.txt" afterPath="$PROJECT_DIR$/../homework4/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/must-fail.in" afterPath="$PROJECT_DIR$/must-fail.in" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/output.txt" afterPath="$PROJECT_DIR$/../homework4/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.txt" afterPath="$PROJECT_DIR$/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework6/recursivefun/recursivefun.sln" afterPath="$PROJECT_DIR$/../homework6/recursivefun/recursivefun.sln" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../homework4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../homework4/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homewor1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +69,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="254" class="Main" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="295" class="Main" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -267,7 +262,7 @@
       <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="1" column="0" selection-start="0" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -294,7 +289,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="255" column="14" selection-start="12051" selection-end="12051" vertical-scroll-proportion="0.0" vertical-offset="4025" max-vertical-offset="4556">
+            <state line="250" column="98" selection-start="11201" selection-end="11201" vertical-scroll-proportion="0.0" vertical-offset="4008" max-vertical-offset="5253">
               <folding />
             </state>
           </provider>
@@ -339,7 +334,7 @@
       <file leaf-file-name="Negation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Negation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="646">
+            <state line="3" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -439,7 +434,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -474,6 +468,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -814,6 +809,7 @@
       <workItem from="1394369802825" duration="3143000" />
       <workItem from="1394388083252" duration="9127000" />
       <workItem from="1394462278990" duration="2671000" />
+      <workItem from="1394565575790" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="some classes added">
       <created>1392123706474</created>
@@ -867,11 +863,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128395000" />
+    <option name="totallyTimeSpent" value="129355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -893,7 +889,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20988446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -938,9 +934,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/must-fail.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="21" selection-start="0" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="27" column="21" selection-start="0" selection-end="732" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
@@ -952,9 +946,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reflexive.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/induction.in">
@@ -1177,16 +1169,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reflexive.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.35945272" vertical-offset="0" max-vertical-offset="804">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.35945272" vertical-offset="0" max-vertical-offset="804" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/must-fail.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="725" selection-end="725" vertical-scroll-proportion="0.99246705" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="31" column="18" selection-start="725" selection-end="725" vertical-scroll-proportion="0.99246705" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Axioms.java">
@@ -1210,13 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/induction.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="2663" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="1237" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="3451">
@@ -1224,16 +1205,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/induction.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="2663" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="1237" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
+        <state line="1" column="0" selection-start="0" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="255" column="14" selection-start="12051" selection-end="12051" vertical-scroll-proportion="0.0" vertical-offset="4025" max-vertical-offset="4556">
+        <state line="250" column="98" selection-start="11201" selection-end="11201" vertical-scroll-proportion="0.0" vertical-offset="4008" max-vertical-offset="5253">
           <folding />
         </state>
       </provider>

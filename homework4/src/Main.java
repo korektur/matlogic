@@ -102,13 +102,40 @@ public class Main {
     }
 
     public static ArrayList<Variable> getFreeVariables(Expression expr) {
-        ArrayList<Variable> all = getVariables(expr);
-        ArrayList<Variable> chained = getChainedVariables(expr);
+        return getFree(expr, new ArrayList<Variable>());
+    }
+
+    private static ArrayList<Variable> getFree(Expression expr,ArrayList<Variable> chained) {
         ArrayList<Variable> ans = new ArrayList<>();
-        for (Variable v : all) {
-            if (!chained.contains(v)) {
+        if (expr instanceof Variable) {
+            Variable v = (Variable) expr;
+            if (!chained.contains(v)){
                 ans.add(v);
             }
+        }
+        if (expr instanceof BinaryOp) {
+            BinaryOp op = (BinaryOp) expr;
+            ans.addAll(getFree(op.getLeft(), chained));
+            ans.addAll(getFree(op.getRight(), chained));
+        }
+        if (expr instanceof Quantifier) {
+            Quantifier q = (Quantifier) expr;
+            boolean fl = chained.contains(q.getVar());
+            if (!fl)
+                chained.add(q.getVar());
+            ans.addAll(getFree(q.getExpr(), chained));
+            if (!fl)
+                chained.remove(q.getVar());
+        }
+        if (expr instanceof Predicate) {
+            Predicate p = (Predicate) expr;
+            ArrayList<Expression> terms = p.getTerms();
+            for (Expression term : terms) {
+                ans.addAll(getFree(term, chained));
+            }
+        }
+        if (expr instanceof Negation) {
+            ans.addAll(getFree(((Negation) expr).getExpr(), chained));
         }
         return ans;
     }

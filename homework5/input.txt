@@ -1,1 +1,6 @@
-@xP(x)->P(p(x))
+(@xP(x)&Q(x))->(@xP(x)&Q(x))->(@xP(x)&Q(x))
+(@xP(x)&Q(x))->((@xP(x)&Q(x))->(@xP(x)&Q(x)))->(@xP(x)&Q(x))
+((@xP(x)&Q(x))->(@xP(x)&Q(x))->(@xP(x)&Q(x)))->((@xP(x)&Q(x))->((@xP(x)&Q(x))->(@xP(x)&Q(x)))->(@xP(x)&Q(x)))->(@xP(x)&Q(x))->(@xP(x)&Q(x))
+((@xP(x)&Q(x))->((@xP(x)&Q(x))->(@xP(x)&Q(x)))->(@xP(x)&Q(x)))->(@xP(x)&Q(x))->(@xP(x)&Q(x))
+(@xP(x))&Q(x)->(@xP(x))&Q(x)
+(@xP(x))&Q(x)->@x((@xP(x))&Q(x))

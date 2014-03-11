@@ -1,8 +1,3 @@
-P(a)|-@xP(a)
-P(a)
-A->A->A
-P(a)->(A->A->A)->P(a)
-(A->A->A)->P(a)
-(A->A->A)->@xP(a)
-@xP(a)
-@xP(x)->P(p(y))
+@xP(x)&Q(x)|-@xP(x)->@xP(x)
+@xP(x)->P(x)
+@xP(x)->@xP(x)
